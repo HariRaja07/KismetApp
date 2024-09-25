@@ -3,6 +3,9 @@ import Intro from "../segments/Intro";
 import Category from "../segments/category";
 import Enquiry from "../segments/Enquiry";
 import Providers from "../segments/Providers";
+import PopularByLoc from "../segments/PopularByLoc";
+import Explore from "../segments/Explore";
+import Quote from "../segments/Quote";
 
 const Content = () => {
 
@@ -12,6 +15,9 @@ const Content = () => {
       <Category/>
       <Enquiry/>
       <Providers/>
+      <PopularByLoc/>
+      <Explore/>
+      <Quote/>
     </div>
   );
 };
