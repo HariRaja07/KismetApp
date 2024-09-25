@@ -6,6 +6,8 @@ import Providers from "../segments/Providers";
 import PopularByLoc from "../segments/PopularByLoc";
 import Explore from "../segments/Explore";
 import Quote from "../segments/Quote";
+import Article from "../segments/Article";
+import News from "../segments/news"
 
 const Content = () => {
 
@@ -18,6 +20,8 @@ const Content = () => {
       <PopularByLoc/>
       <Explore/>
       <Quote/>
+      <News/>
+      <Article/>
     </div>
   );
 };
