@@ -4,7 +4,7 @@ import img5 from "../assets/img5.webp";
 
 const Enquiry = () => {
   return (
-    <div className="pb-16 sm:pb-32 sm:pt-24">
+    <div className="pb-16 sm:pb-32 sm:pt-24 bg-green-200">
       <div className="flex w-full justify-center px-4 sm:px-8">
         <div className="flex w-full max-w-7xl flex-col">
           <div className="bg-primary flex flex-col-reverse gap-4 rounded-2xl p-4 xl:grid xl:grid-cols-12 xl:items-center">
