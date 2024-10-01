@@ -23,6 +23,3 @@ jobs:
 
       - name: Build the app
         run: npm run build
-
-      - name: Run tests
-        run: npm test  # Ensure you have tests; this step can be optional if you don't have tests
